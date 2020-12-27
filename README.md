@@ -1,10 +1,13 @@
-# Getting Started with Create React App
+# Crazy Cards Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+web application to allow customers to enter their details and review credit cards that are applicable to their credit status.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+The user should submit their details via a form.
+The application should then return a filtered list of cards available to that user; use the rules outlined at the end of this document to decide whether a particular card is available.
+The user should be allowed to select one or more of the returned cards and see the details for the cards selected.
+When multiple cards are selected, the total amount of credit available to the user on those cards should be displayed.
 
 ### `yarn start`
 
